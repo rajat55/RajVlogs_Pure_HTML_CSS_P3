@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.nav-section {
+  background-color: rgb(253, 253, 253);
+  border-bottom: 1px solid rgba(172, 168, 168, 0.363);
+  box-shadow: 1px black blur;
+  position: sticky;
+  top: 0;
+}
+.logo-text b {
+  color: blueviolet;
+}
+
+nav {
+  margin: 2px auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20;
+}
+nav .nav-content {
+  display: flex;
+  gap: 10px;
+}
+nav li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px 8px;
+  padding: 4px;
+}
+nav li:hover {
+  background-color: aqua;
+
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px;
+}
+nav i {
+  padding: 4px;
+  vertical-align: bottom;
+}
+nav i:hover {
+  background-color: aqua;
+
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+/* hero section  */
+
+.hero {
+  max-width: 1200px;
+  display: flex;
+  margin: 1px auto;
+  justify-content: space-between;
+}
+.img {
+  width: 60%;
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  height: 300px;
+  border-radius: 17px;
+}
+.hero-text {
+  width: 40%;
+}
+.hero-text h1 {
+  font-size: 70;
+  margin-bottom: 0px;
+}
+
+/* banner section */
+
+.banner-sec {
+  display: flex;
+  max-width: 1200px;
+  margin: 2px auto;
+  box-shadow: 3px royalblue blur;
+  flex-direction: row-reverse;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.banner-sec-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: justify;
+  margin-left: 9px;
+  background-color: rgba(237, 243, 243, 0.233);
+  padding: 4px;
+}
+.banner-sec-text .read {
+  display: flex;
+}
+.img-banner {
+  width: 40%;
+}
+.img-banner img {
+  width: 100%;
+  border-radius: 8px;
+}
+.read {
+  display: flex;
+  justify-content: space-between;
+}
+.card-sec {
+  
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  
+  margin: 2px auto;
+  gap: 10px;
+}
+.cards .banner-sec-text h2,
+p {
+  margin: 4px;
+}
+.cards {
+  width: 33%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 2px 3px 7px violet;
+}
+.cards .img-banner{
+    
+  width: 100%;
+  padding: 20px;
+}
+.cards .banner-sec-text{
+    margin: 1px auto;
+    width: 95%;
+}
+.secf{
+  flex-direction: row;
+  margin: 5px auto;
+}
+.footer-text{
+  max-width: 1200px;
+  margin: 3px auto;
+  background-color: blueviolet;
+  text-align: center;
+}
+.footer-text h1{
+  text-align: center;
+}
